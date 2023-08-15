@@ -1,0 +1,10 @@
+h1.welcome{
+
+    font-size:100px;
+    color:purple;
+}
+
+body.indexBody{
+
+    background-image: linear-gradient(#82aef5, #8d02de);
+}
