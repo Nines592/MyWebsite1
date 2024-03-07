@@ -1,0 +1,394 @@
+html {
+    text-align: center;
+    background-color: rgb(50, 54, 57);
+    ;
+    font-family: sans-serif;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: static;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 5;
+    font-family: sans-serif;
+    background: linear-gradient(#000000d5, #9198e500);
+    height: 6%;
+}
+
+.nav-li .nav-a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1vh 1vh;
+    text-decoration: none;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 3vh;
+}
+
+.logo-eco {
+    color: rgb(250, 207, 115);
+}
+
+.nav-a {
+    margin: 1vh;
+    transition: all 0.3s;
+    font-size: 2vh;
+}
+
+.nav-li {
+    border-radius: 2vh;
+    transition: all 0.3s;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+}
+
+.nav-a:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.title {
+    float: left;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 97%;
+    width: 13.8%;
+    border: #333;
+    border-style: solid;
+    margin-right: 20px;
+}
+
+.long-bar {
+    background-color: #3228;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    /* Add padding for spacing */
+    margin: 0;
+    font-size: 24px;
+    position: relative;
+}
+
+
+/* Hyperlink interaction */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+/* -------------------- */
+
+.content {
+    color: white;
+}
+
+/* Reset default margin and padding */
+
+.container {
+    min-height: calc(100vh - 120px);
+}
+
+html {
+    text-align: center;
+    background-color: rgb(50, 54, 57);
+    ;
+    font-family: sans-serif;
+}
+
+.title {
+    float: left;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 97%;
+    width: 13.8%;
+    border: #333;
+    border-style: solid;
+    margin-right: 20px;
+}
+
+.long-bar {
+    background-color: #3228;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    /* Add padding for spacing */
+    margin: 0;
+    font-size: 24px;
+    position: relative;
+}
+
+
+/* Hyperlink interaction */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+/* -------------------- */
+
+.content {
+    color: white;
+}
+
+#levels{
+    color:blue;
+}
+
+#news-container{
+    color:#fff;   
+}
+
+/* Reset default margin and padding */
+
+/* Style for the main container */
+.container {
+    min-height: calc(100vh - 120px);
+    padding-bottom: 20px;
+}
+
+
+/* Style for the footer */
+.footer {
+    margin-top: 500px;
+    background-color: #323639;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-size: 10px;
+    border: #000;
+    border-style: solid;
+}
+
+/* Style for the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+/* Keyframes for wave animations */
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Style for each footer section */
+.footer section {
+    /* width: 30%; */
+    padding: 20px;
+    text-align: left;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for heading in each section */
+.footer h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Style for links in Policies section */
+.policies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.policies ul li {
+    margin-bottom: 5px;
+}
+
+.policies ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.left-column {
+    float: left;
+    width: 14%;
+    height: fit-content;
+    border-right: 2px solid #000;
+    box-sizing: border-box;
+    position: fixed;
+    border: 2px solid #000;
+    /* Fixed positioning to make it stay in view */
+}
+
+/* Style for the navigation links in left column */
+.left-column ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.left-column ul li {
+    margin-bottom: 10px;
+}
+
+.left-column ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .nav-ul {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: flex-start;
+        /* Align items to the start (left) of the container */
+        height: auto;
+        /* Remove fixed height */
+    }
+
+    .nav-li {
+        margin: 0.5vh 0;
+    }
+
+    .nav-logo {
+        font-size: 2.5vh;
+    }
+
+    .nav-a {
+        font-size: 2vh;
+    }
+
+    .logo {
+        width: 100%;
+        /* Make the logo full-width */
+        height: auto;
+        /* Allow height to adjust based on logo aspect ratio */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .nav-ul {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: flex-start;
+        /* Align items to the start (left) of the container */
+        height: auto;
+        /* Remove fixed height */
+    }
+
+    .nav-li {
+        margin: 0.5vh 0;
+    }
+
+    .nav-logo {
+        font-size: 2.5vh;
+    }
+
+    .nav-a {
+        font-size: 2vh;
+    }
+
+    .logo {
+        width: 100%;
+        /* Make the logo full-width */
+        height: auto;
+        /* Allow height to adjust based on logo aspect ratio */
+    }
+}
